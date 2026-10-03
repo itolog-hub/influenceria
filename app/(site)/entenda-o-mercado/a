@@ -1,0 +1,120 @@
+export default function EntendaOMercadoPage() {
+  return (
+    <div className="min-h-screen bg-[#191919] text-[#d4d4d4]">
+      <div className="mx-auto max-w-[720px] px-6 py-12">
+        <h1 className="text-[40px] font-bold text-white mb-8">Entenda o mercado</h1>
+
+        <div className="mb-8 rounded-lg overflow-hidden">
+          <img src="/LuFvQ.jpg" alt="Funil InfluencerIA" className="w-full h-auto" />
+        </div>
+
+        <p className="text-[16px] leading-[26px] mb-8">
+          Este diagrama mostra um funil completo de aquisição, conversão e monetização usado no método <strong className="text-white">InfluencerIA</strong>. O objetivo é captar público frio nas redes sociais, filtrar quem realmente tem interesse e converter em vendas de conteúdo (packs, assinaturas, prévias e grupo VIP), com foco em recorrência e controle total.
+        </p>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">1. Aquisição / Captação</h3>
+        <p className="text-[16px] leading-[26px] mb-6">Aqui começa o funil. O objetivo é gerar tráfego qualificado sem queimar o perfil principal.</p>
+
+        <p className="font-semibold text-white mb-2">Perfis Soldados (secundários)</p>
+        <p className="text-[16px] leading-[26px] mb-6">Você cria vários perfis “soldados” no Instagram (e opcionalmente TikTok, Kwai, etc.). Esses perfis postam conteúdo de engajamento (reels, stories, posts) e direcionam as pessoas para o <strong className="text-white">Perfil Principal</strong>.</p>
+
+        <p className="font-semibold text-white mb-2">Perfil Principal</p>
+        <p className="text-[16px] leading-[26px] mb-3">É o perfil oficial da influencer. Ele recebe o tráfego dos soldados e tem o papel de construir autoridade e desejo.</p>
+        <p className="text-[16px] mb-2">Nesse perfil você usa:</p>
+        <ul className="list-disc pl-6 mb-6 space-y-1">
+          <li>Stories e reels com CTA (call to action)</li>
+          <li>Bio com link de conversão</li>
+          <li>Conteúdo que aquece o público sem entregar tudo de graça</li>
+        </ul>
+
+        <p className="font-semibold text-white mb-2">Outras fontes de tráfego (opcionais)</p>
+        <ul className="list-disc pl-6 mb-3 space-y-1">
+          <li>TikTok</li>
+          <li>X (Twitter)</li>
+          <li>Kwai</li>
+          <li>Threads</li>
+          <li>Outras redes</li>
+        </ul>
+        <p className="text-[16px] leading-[26px] mb-6">Todas essas redes apontam para o perfil principal ou diretamente para a área de conversão.</p>
+
+        <p className="font-bold text-white mb-4">RESUMINDO:</p>
+
+        <div className="mb-6 rounded-lg overflow-hidden bg-[#d5e8e0]">
+          <img src="/Influencer_Social_Media_Strategy.jpg" alt="Resumo método" className="w-full h-auto" />
+        </div>
+
+        <ul className="list-disc pl-6 mb-10 space-y-1">
+          <li><strong className="text-white">PERFIL SOLDADO (Opcional)</strong> -&gt; empurra pro Principal</li>
+          <li><strong className="text-white">TikTok / Truco / Jaumo</strong> -&gt; OPCIONAIS, mandam pro Principal</li>
+          <li><strong className="text-white">PERFIL PRINCIPAL</strong> -&gt; Após 7 dias botão [ Meu segredinho ] &gt; marca o Porta Link</li>
+          <li><strong className="text-white">PERFIL PORTA LINK</strong> -&gt; conta isolada só pro link</li>
+          <li><strong className="text-white">X / Threads</strong> -&gt; opcionais, ligação direta pro link.me</li>
+          <li>Final -&gt; <strong className="text-white">CONVERSÃO FINAL -&gt; LINK.ME</strong></li>
+        </ul>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">2. Área de Conversão</h3>
+        <p className="mb-4">Aqui acontece a filtragem e a primeira venda.</p>
+        <p className="mb-4">No perfil principal (ou via link da bio) a pessoa cai em uma página de links (Linktree, ou página própria). Nessa página existem <strong className="text-white">dois caminhos principais</strong>:</p>
+        <ol className="list-decimal pl-6 mb-4 space-y-3">
+          <li><strong className="text-white">Botão Telegram Prévias</strong> (gratuito ou ticket baixo)<br/>Leva para um grupo de prévias no Telegram.<br/>Objetivo: aquecer o lead, mostrar prova social, gerar FOMO e filtrar quem realmente quer comprar.</li>
+          <li><strong className="text-white">Botão “MEU SITE”</strong> (para quem não tem Telegram)<br/>Leva para uma página de vendas alternativa.</li>
+        </ol>
+        <p className="mb-6">O objetivo dessa etapa é <strong className="text-white">evitar que o algoritmo do Instagram leia conteúdo hot</strong> e, ao mesmo tempo, separar quem está disposto a pagar.</p>
+
+        <p className="font-semibold text-white mb-2">Opções de plataforma de vendas na área de conversão:</p>
+        <ul className="list-disc pl-6 mb-10 space-y-2">
+          <li><strong className="text-white">LinkPriv</strong> → Vitrine de escolha de packs. O pagamento libera o chat exclusivo e automático. Ideal para quem quer vender packs avulsos de forma simples.</li>
+          <li><strong className="text-white">Privacy</strong> → Plataforma BR de venda de conteúdo (estilo OnlyFans). Possui conta verificada, operador humano, taxa de 20%, vitrine secundária e monetização direta.</li>
+          <li><strong className="text-white">Tela Fake (Checkout)</strong> → Página de checkout disfarçada de portal (OnlyFans, Privacy etc.). Aceita NGK Pay, PerfectPay, etc.</li>
+        </ul>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">3. Fluxos que saem do Grupo de Prévias do Telegram</h3>
+        <p className="mb-4">Depois que a pessoa entra no grupo de prévias, existem 3 <strong className="text-white">fluxos principais</strong> de monetização:</p>
+        <div className="space-y-4 mb-10">
+          <p><strong className="text-white">Fluxo 1 – Venda por Telegram Stars</strong><br/>- Usa botão de desbloqueio de packs.<br/>- Pagamento nativo do Telegram.<br/>- Liberação automática.<br/>- Taxa aproximada de 30%.</p>
+          <p><strong className="text-white">Fluxo 2 – Link para Bot + Checkout externo</strong><br/>- Bot com menu (Mensal / Trimestral / Vitalício).<br/>- Checkout via NGK/Shark.<br/>- Webhook libera VIP automaticamente.<br/>- Vantagem: recorrência + controle total sobre o cliente.</p>
+          <p><strong className="text-white">Fluxo 3 - Venda Global</strong><br/>- Checkout via madbot ou com NGK (stripe)<br/>- Bot com menu idioma e moeda<br/>- Webhook libera VIP automaticamente.<br/>- Vantagem: Venda em moeda forte via checkout de cartão internacional e applepay</p>
+        </div>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">4. Grupo VIP</h3>
+        <p className="mb-3">É o produto principal de recorrência.</p>
+        <p className="mb-2">Dentro do grupo VIP você entrega:</p>
+        <ul className="list-disc pl-6 mb-4 space-y-1">
+          <li>Conteúdo novo (fotos e vídeos)</li>
+          <li>Vídeo-chamadas</li>
+          <li>Nome escrito com batom</li>
+          <li>Liberação de WhatsApp</li>
+          <li>Vídeos extras</li>
+          <li>Sorteios de calcinha (só paga o frete)</li>
+          <li>Pedidos de renovação para próximas promoções</li>
+        </ul>
+        <p className="mb-10">O grupo VIP é onde está a maior parte do lucro recorrente.</p>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">5. Vendas Internacionais sem telegram</h3>
+        <p className="mb-2">Para quem quer vender para o exterior de forma direta:</p>
+        <ul className="list-disc pl-6 mb-10 space-y-1">
+          <li>No X1(conversando): <strong className="text-white">Wise</strong> (dólar/IBAN) ou <strong className="text-white">PayPal</strong></li>
+          <li>Com “site”: <strong className="text-white">Fanvue, privacy, checkout NGK com stripe</strong></li>
+        </ul>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">Resumo do Funil Completo</h3>
+        <ol className="list-decimal pl-6 mb-10 space-y-1">
+          <li>Tráfego frio → Perfis Soldados</li>
+          <li>Perfis Soldados → Perfil Principal</li>
+          <li>Perfil Principal → Página de conversão (prévias + site)</li>
+          <li>Grupo de prévias → Venda de packs ou assinatura</li>
+          <li>Assinatura → Grupo VIP (recorrência)</li>
+          <li>Opcional: vendas internacionais</li>
+        </ol>
+
+        <h3 className="text-[20px] font-semibold text-white mt-10 mb-4">Dicas práticas do método</h3>
+        <ul className="list-disc pl-6 mb-20 space-y-2">
+          <li>Nunca mostre tudo de graça no Instagram. Use o Telegram de prévias para aquecer.</li>
+          <li>Tenha sempre os dois caminhos (Telegram + Site) para não perder quem não usa Telegram.</li>
+          <li>Prefira soluções com liberação automática (webhook) para escalar.</li>
+          <li>O Grupo VIP é o coração da recorrência — invista em conteúdo de qualidade e relacionamento.</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
